@@ -1,5 +1,3 @@
-import React from "react"
-
 export const DATA = [{
     id: '1',
     lastname: 'Messi',
