@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, SafeAreaView, FlatList } from 'react-native';
 import Constants from 'expo-constants'
 import { DATA } from './Data';
@@ -32,7 +31,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'left',
     paddingTop: Platform.OS === 'android' ? Constants.statusBarHeight: 0,
-    //justifyContent: 'center',
-
   },
 });
